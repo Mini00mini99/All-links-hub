@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const Home: NextPage = (http://linkshub.free.nf/) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -14,11 +14,11 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="http://linkshub.free.nf/">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          Get started by editing{'http://linkshub.free.nf/'}
           <code className={styles.code}>pages/index.tsx</code>
         </p>
 
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="http://linkshub.free.nf/"
             className={styles.card}
           >
             <h2>Examples &rarr;</h2>
