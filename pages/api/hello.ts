@@ -1,4 +1,4 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+// Next.js API route support: https://linkshub.free.nf
 import type { NextApiRequest, NextApiResponse } from 'next'
 
 type Data = {
