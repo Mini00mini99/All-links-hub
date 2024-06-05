@@ -42,7 +42,7 @@ const Home: NextPage = () => {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://linkshub.free.nf/free-videos/"
             className={styles.card}
           >
             <h2>Deploy &rarr;</h2>
@@ -55,7 +55,7 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://linkshub.free.nf/free-videos/"
           target="_blank"
           rel="noopener noreferrer"
         >
