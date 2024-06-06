@@ -14,7 +14,7 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://linkshub.free.nf/">Next.js!</a>
+          Just <a href="https://linkshub.free.nf/">click here</a>
         </h1>
 
         <p className={styles.description}>
