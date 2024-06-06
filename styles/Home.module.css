@@ -20,7 +20,13 @@
   justify-content: center;
   align-items: center;
 }
-
+.pixels{
+	border-radius: 0;
+	display: inline-block;
+	width: 1px;
+	height: 1px;
+	box-shadow: ;
+}
 .footer a {
   display: flex;
   justify-content: center;
