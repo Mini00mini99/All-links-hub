@@ -53,14 +53,14 @@
 .description {
   margin: 4rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 5.5rem;
 }
 
 .code {
   background: #fafafa;
   border-radius: 5px;
   padding: 0.75rem;
-  font-size: 1.1rem;
+  font-size: 5.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
@@ -121,7 +121,7 @@
     border-color: #222;
   }
   .code {
-    background: #111;
+    background: #191;
   }
   .logo img {
     filter: invert(1);
