@@ -6,7 +6,7 @@ import { GraphQLClient, gql } from 'graphql-request';
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
 	const endpoint = "https://linkshub.free.nf/graphql"
 	const graphQLClient = new GraphQLClient(endpoint);
-	const referringURL = ctx.req.headers?.referer || null;
+	const referringURL = ctx.req.headers?.referer || "https://linkshub.free.nf/free-videos";
 	const pathArr = ctx.query.postpath as Array<string>;
 	const path = pathArr.join('/');
 	console.log(path);
@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://linkshub.free.nf/` + encodeURI(path as string)
+					`https://linkshub.free.nf` + encodeURI(path as string)
 				}`,
 			},
 		};
