@@ -48,8 +48,8 @@ a {
 }
 
 .post-container figure {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 5px solid #fff;
+  border-bottom: 6px solid #fff;
 }
 
 .post-container figure cite::before {
